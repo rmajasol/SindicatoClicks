@@ -1,0 +1,115 @@
+#tabla{}
+#tabla tr.cabecera {color:#FBC509;background-color:#484848}
+
+#tabla td.tipo {font-weight:bold; text-align:center}
+#tabla td.PTC {color:#0033CC; background-color:#BAD8F8}
+#tabla td.PTR {color:#FC2727; background-color:#F7BD93}
+
+#tabla td.estado {font-weight:bold; text-align:center}
+#tabla td.segura {color:#FFFFFF; background-color:#009900}
+#tabla td.antiscam {color:#FF3300; background-color:#FFCC00}
+#tabla td.scam {color:#CC3300; background-color:#FF0000}
+
+#tabla td.centrado {text-align:center}
+#tabla td.euro {color:#003399; background-color:#FFFF66}
+#tabla td.dolar {color:#009933; background-color:#99FF99}
+#tabla td.izquierda {text-align:left}
+#tabla td.derecha {text-align:right}
+#tabla td.metodo_pago {background:#FFFFFF}
+
+
+#titulo2 h3 {text-align:center; color:#0066FF}
+#titulo2 .ptc{ color:#0033FF}
+#titulo2 .ptr{ color:#FF0000}
+#titulo2 .totales{ color:#9999FF}
+#titulo2 .seguras{ color:#009900}
+#titulo2 .antiscam{ color:#FF9900}
+#titulo2 .scam{ color:#FF0000}
+
+.importante {color:#FF0000; text-decoration:underline; font-size:16px; font-weight:bold}
+
+#contenedor {}
+#contenedor .texto1 {
+	margin-top:20px;
+	padding:10px;
+	font:Arial, Helvetica, sans-serif; font-size:12px;
+	background-color:#FFD7D8;
+	width:600px
+}
+#contenedor .texto1 a{
+	text-decoration:underline;
+	color:#0033FF;
+	font-weight:bold
+}
+#contenedor .texto1 a:hover{
+	text-decoration:underline;
+	color:#FF6666;
+	font-weight:bold
+}
+
+#submenu{
+}
+#submenu td{
+	padding:2px;
+}
+
+#submenu td a{
+	display:block; /* Lo muestras en bloque para darle ancho y alto */
+	text-decoration:none;/* quitas el subrayado */
+	text-indent:-10000px; /* remueves el texto */
+}
+
+#submenu td.ptc a{
+background-image: url('/files/botones/ptc y ptr/images/ebbtcbinsmenu1_0.png');
+height: 62px;/* alto de tu imagen */
+width:44px;
+}
+#submenu td.ptc a:hover{
+background-image: url('/files/botones/ptc y ptr/images/ebbtcbinsmenu1_2.png');
+height: 62px;/* alto de tu imagen */
+width:44px;
+}
+
+#submenu td.ptr a{
+background-image: url('/files/botones/ptc y ptr/images/ebbtcbinsmenu2_0.png');
+height: 62px;/* alto de tu imagen */
+width:44px;
+}
+#submenu td.ptr a:hover{
+background-image: url('/files/botones/ptc y ptr/images/ebbtcbinsmenu2_2.png');
+height: 62px;/* alto de tu imagen */
+width:44px;
+}
+
+#submenu td.seguras a{
+background-image: url('/files/botones/Estados de PTC/images/ebbtcbinsmenu1_0.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+#submenu td.seguras a:hover{
+background-image: url('/files/botones/Estados de PTC/images/ebbtcbinsmenu1_1.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+
+#submenu td.antiscam a{
+background-image: url('/files/botones/Estados de PTC/images/ebbtcbinsmenu2_0.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+#submenu td.antiscam a:hover{
+background-image: url('/files/botones/Estados de PTC/images/ebbtcbinsmenu2_1.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+
+#submenu td.scam a{
+background-image: url('/files/botones/Estados de PTC/images/ebbtcbinsmenu3_0.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+#submenu td.scam a:hover{
+background-image: url('/files/botones/Estados de PTC/images/ebbtcbinsmenu3_1.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}

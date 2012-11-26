@@ -1,0 +1,43 @@
+body{
+	background:#CCCCCC
+}
+
+#pagina{
+	width:900px;
+	background:#CCCCCC;
+	margin:10px auto
+}
+
+#cabecera{
+	background:#707070;
+	width:800px;
+	height:231px;
+	margin:5px auto
+}
+
+#logo{
+	float:left;
+	padding:20px
+}
+
+#banner_1{
+	float:left;
+	width:468px;
+	height:60px;
+	margin:20px;
+	background:#FFFFFF
+}
+
+#cuadro_log{
+	background:#CCCCCC;
+	float:left;
+	margin-top:30px;
+	margin-left:30px;
+	font-size:14px;
+	font-family:Geneva, Arial, Helvetica, sans-serif
+}
+
+#cuerpo{
+}
+
+

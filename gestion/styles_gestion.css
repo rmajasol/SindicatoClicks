@@ -1,0 +1,216 @@
+#home{
+	margin:30px auto;
+	width:390px;
+}
+
+
+
+
+
+#gestion_cobros .titulo{
+	font-size:20px;
+	text-align:center;
+	color:#009933;
+	font-weight:bold
+}
+#gestion_cobros .tabla_valores{
+	margin-top:15px; 
+	margin-left:25px;
+	float:left; 
+}
+
+#gestion_cobros .cuadrito {
+	margin-top:25px;
+	margin-left:75px;
+	text-align:left; 
+	background:#FDE693;
+	border:solid; border-color:#FF0000;
+	float:left
+}
+
+#gestion_cobros .espaciado{
+	clear:both;
+}
+#gestion_cobros .tabla_movimientos{
+	
+	padding:10px 25px;
+	background:#999999;
+	width:460px;
+	margin:25px auto
+}
+#gestion_cobros .titulo_movimientos {
+	font-size:18px; 
+	font-weight:bold;
+	color:#000066;
+	text-align:center;
+}
+
+#gestion_cobros .a_recibir {color:#009933}
+#gestion_cobros .a_dar {color:#FF0000}
+#gestion_cobros .justo {color:#0033FF}
+
+#gestion_cobros td.cobra{ background:#009900; color:#FFFFFF; font-weight:bold; text-align:center}
+#gestion_cobros td.paga{ color:#FF0000; font-weight:bold; text-align:center}
+#gestion_cobros td.pasa_a{ color:#0000FF; font-weight:bold; text-align:center}
+#gestion_cobros td.de_empresa {color:#FF9900; font-weight:bold; text-align:center}
+#gestion_cobros td.de_usuario {color:#0066CC; font-weight:bold; text-align:center}
+
+
+
+#dar .mensaje{
+	font:Arial; 
+	color:#FFCCFF; 
+	font-size:18px; 
+	margin:0 auto;
+	padding:8px;
+	background:#FF3300;
+	text-align:center
+}
+
+#dar .titulo{
+	font-size:20px;
+	text-align:center;
+}
+
+
+#cargar_info .titulo{
+	font-size:20px;
+	text-align:center;
+}
+#cargar_info .user{
+	font-weight:bold;
+	color:#3399FF
+}
+#cargar_info .tabla{
+	margin:15px auto
+}
+#cargar_info .mensaje{
+	text-align:center;
+	background:#009900;
+	color:#FFFFFF;
+	margin:10px auto
+}
+#cargar_info .cashout{
+	background: url(../files/images/otros/icon-ok-small.gif); background-position:center; background-repeat:no-repeat
+}
+#cargar_info .esperando_pago{
+	background: url(../files/images/otros/time_icon.png); background-position:center; background-repeat:no-repeat
+}
+
+
+
+
+
+/* MIS GANANCIAS */
+#ganancias #tabla td.pagado0{background:#FF9900;}
+#ganancias #tabla td.pagado1{background:#009900;}
+#hpagos .contenido_detalles{
+	margin:25px auto;
+	width:500px;
+	background:#996699;
+	padding:5px
+}
+#hpagos .contenido_tabla{
+	margin:0 auto;
+	width:500px;
+	background:#99FFFF;
+	padding-top:10px
+}
+.titulop{
+	text-align:center;
+	font-size:14px;
+	font-weight:bold
+}
+#hpagos table.tabla{background:#FFFFCC;}
+#hpagos thead.tabla{background:#FF6600; color:#0000FF;}
+#hpagos .titulo_pago{
+	background:#00CCFF;
+	margin: 20px auto;
+	width:400px;
+	text-align:center;
+	padding-top:5px;
+	font-weight:bold;
+	font-family:Geneva, Arial, Helvetica, sans-serif
+}
+#hpagos .empresa_detalles{
+	width:450px;
+	background:#CCFFCC;
+	margin:5px auto;
+	text-align:left;
+	padding:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px
+}
+#hpagos .total{
+	width:450px;
+	background:#FE8395;
+	margin:7px auto;
+	text-align:center;
+	padding:7px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:16px;
+	font-weight:bold
+}
+#hpagos .d1{color:#0033CC}
+#hpagos .d2{color:#0000FF}
+#submenu td a{
+	display:block; /* Lo muestras en bloque para darle ancho y alto */
+	height:32px;/* alto de tu imagen */
+	width:152px;
+	text-decoration:none;/* quitas el subrayado */
+	text-indent:-10000px; /* remueves el texto */
+}
+#ganancias #submenu td.t0 a{background-image: url('/files/botones/Historial pagos/images/ebbtcbinsmenu1_0.png');}
+#ganancias #submenu td.t0 a:hover{background-image: url('/files/botones/Historial pagos/images/ebbtcbinsmenu1_1.png');}
+#ganancias #tabla td.pagado0{background:#FF9900;}
+#ganancias #tabla td.pagado1{background:#009900;}
+
+
+/**
+*	FORMULARIO PERFIL & EDITAR
+**/
+.cuadro_confirm{
+	background:#707070;
+	color:#FFFFFF;
+	margin:10px auto;
+	padding:10px 7px;
+	width:221px;
+	border:1px solid #FFF;
+}
+.cuadro_confirm form{
+	margin-top:7px;
+}
+.cuadro_confirm_ok{
+	background:#009900;
+	color:#FFFFFF;
+	margin:20px auto;
+	font-weight:bold;
+	padding:10px;
+	text-align:center;
+	width:300px;
+}
+.cuadro_error{
+	background:#CC3300 none repeat scroll 0 0;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin:0 auto 9px;
+	padding:10px;
+	text-align:center;
+	width:300px;
+}
+.cuadro_mensaje{
+	background:#707070 none repeat scroll 0 0;
+	border:2px solid #FFCC33;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin:20px auto;
+	padding:10px;
+	text-align:center;
+	width:300px;
+}
+#form{table-layout:auto}
+#form td.derecha{text-align:right}
+#form td.dato{padding-left:5px}
+#form td.submit{padding-right:20px}
+#form .link{ width:268px;}
+#form .ped_cancelado{ background:#FFCCCC; color:#CC0000}

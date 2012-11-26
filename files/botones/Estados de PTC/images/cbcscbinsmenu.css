@@ -1,0 +1,67 @@
+.ebul_cbinsmenu, .ebul_cbinsmenu ul {
+  background-color: #999999;
+  border: 0px solid #FFCC00;
+  display: block;
+  font-size: 1px;
+  margin: 0px;
+  overflow: auto;
+  padding: 1px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.ebul_cbinsmenu_shadow {
+  background-color: #777777;
+  display: block;
+  margin: 0px;
+  overflow: hidden;
+  position: absolute;
+  visibility: hidden;
+}
+
+.ebul_cbinsmenu table {
+  border-collapse: separate;
+}
+
+.ebul_cbinsmenu tr {
+  background-color: #FEDF07;
+  cursor: pointer;
+  font-size: 1px;
+}
+
+.ebul_cbinsmenu td {
+  border: 0px solid #999999;
+  padding: 3px;
+  text-align: left;
+}
+
+.ebul_cbinsmenu td a {
+  color: #000000;
+  font-family: "Tahoma", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.ebul_cbinsmenu tr.hot, .ebul_cbinsmenu tr.expanded {
+  background-color: #F0F0F0;
+}
+
+.ebul_cbinsmenu tr.hot td, .ebul_cbinsmenu tr.expanded td {
+  border-color: #999999;
+}
+.ebul_cbinsmenu tr.hot a, .ebul_cbinsmenu tr.expanded a {
+  color: #000000;
+  font-family: "Tahoma", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+ul.ebul_cbinsmenu {
+  position: absolute;
+  visibility: hidden;
+}
+

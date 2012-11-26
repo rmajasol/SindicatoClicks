@@ -1,0 +1,64 @@
+#tabla{
+	color: #000;
+	table-layout:auto;
+	margin:auto;
+	/*width:785px;*/
+}
+#tabla td{ padding:5px 5px;}
+#tabla th{ 
+	padding:6px;
+	cursor: pointer
+}
+#tabla th.nombre_ptc{width:100px}
+#tabla th.check{}
+#tabla th:hover{color:maroon}
+#tabla caption {
+	text-transform: uppercase;
+	text-align:center;  
+	font: bold 12pt Verdana;
+	color: #4F4F4F;
+	margin: 3px 0;
+}
+#tabla a{ color:maroon; text-decoration: none;}
+#tabla a:hover{color:chocolate;}
+#tabla thead th, #tabla tfoot th, #tabla tfoot td ,#tabla tbody th,#tabla tbody td {
+	color: #000; 
+	font: 8pt Verdana; 
+	border-right: 1px solid #aaa; 
+	border-top: 1px solid #eee; 
+	border-left:1px solid #eee; 
+	border-bottom: 1px solid #aaa;
+	background-color:#D8D8D8
+}
+#tabla thead th, #tabla tfoot th, #tabla tfoot td { background-color: #C1C1C1;; font-weight: bold; text-align:center; }
+#tabla tfoot td { text-align:right }
+#tabla tbody th { white-space: nowrap; font-weight: bold; text-align:left; }
+#tabla .odd td { }
+#tabla tbody tr:hover td.hover{
+	background-color: silver;
+	/*border-right: 1px solid #eee; 
+	border-top: 1px solid #999; 
+	border-left: 1px solid #999; 
+	border-bottom: 1px solid #eee;*/ 
+	background-color:#E2E2E2;
+}
+#tabla tr.cabecera {color:#FBC509;background-color:#484848}
+#tabla td.nombre_ptc {width:100px}
+#tabla td.tipo {font-weight:bold; text-align:center}
+#tabla td.PTC {color:#0033CC; background-color:#BAD8F8}
+#tabla td.PTR {color:#FC2727; background-color:#F7BD93}
+#tabla td.estado {font-weight:bold; text-align:center}
+#tabla td.segura {color:#FFFFFF; background-color:#009900}
+#tabla td.antiscam {color:#FF3300; background-color:#FFCC00}
+#tabla td.scam {color:#CC3300; background-color:#FF0000}
+#tabla td.centrado {text-align:center}
+#tabla td.euro {color:#003399; background-color:#FFFF66}
+#tabla td.dolar {color:#009933; background-color:#99FF99}
+#tabla td.izquierda {text-align:left}
+#tabla td.derecha {text-align:right}
+#tabla td.sinbordei { border-left:none}
+#tabla td.sinborded { border-right:none}
+#tabla td.paypal, #tabla td.alertpay, #tabla td.paypal_alertpay{background-repeat:no-repeat; background-position:center; text-indent:-10000px;}
+#tabla td.paypal{ background-image: url('../files/images/formas_pago/paypal.png'); background-repeat:no-repeat; background-position:center}
+#tabla td.alertpay { background-image: url('../files/images/formas_pago/alertpay.png'); background-repeat:no-repeat; background-position:center}
+#tabla td.paypal_alertpay{ background-image: url('../files/images/formas_pago/paypal_alertpay.png'); background-repeat:no-repeat; background-position:center}

@@ -1,0 +1,654 @@
+/* HOME */
+#home {
+	margin:0 auto;
+	width:600px;
+	background:#DBDBDB;
+}
+#home .content{ padding:15px}
+#home p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-indent:30px;
+	line-height:18px;
+}
+
+
+
+/* PAPELERA */
+#papelera #submenu td a{
+	display:block; /* Lo muestras en bloque para darle ancho y alto */
+	text-decoration:none;/* quitas el subrayado */
+	text-indent:-10000px; /* remueves el texto */
+}
+#papelera #submenu td.ver a{
+background-image: url('../files/botones/papelera/ebbtcbinsmenu1_0.png');
+height:32px;/* alto de tu imagen */
+width:118px;
+}
+#papelera #submenu td.ver a:hover{
+background-image: url('../files/botones/papelera/ebbtcbinsmenu1_2.png');
+height:32px;/* alto de tu imagen */
+width:118px;
+}
+#papelera #submenu td.insertar a{
+background-image: url('../files/botones/papelera/ebbtcbinsmenu2_0.png');
+height:32px;/* alto de tu imagen */
+width:146px;
+}
+#papelera #submenu td.insertar a:hover{
+background-image: url('../files/botones/papelera/ebbtcbinsmenu2_2.png');
+height:32px;/* alto de tu imagen */
+width:146px;
+}
+#papelera #submenu td.quitar a{
+background-image: url('../files/botones/papelera/ebbtcbinsmenu3_0.png');
+height:32px;/* alto de tu imagen */
+width:135px;
+}
+#papelera #submenu td.quitar a:hover{
+background-image: url('../files/botones/papelera/ebbtcbinsmenu3_2.png');
+height:32px;/* alto de tu imagen */
+width:135px;
+}
+
+
+#papelera .titulo2 h3{
+	text-align:center;
+	color:#2E73B2
+}
+
+#papelera #insertar{
+	width:400px;
+	margin:0 auto;
+	border:none;
+	background:#FF6600;
+	padding:10px;
+}
+
+#papelera #quitar{
+	width:400px;
+	margin:0 auto;
+	border:none;
+	background:#99FF99;
+	padding:10px;
+}
+
+
+
+/* LISTA DE EMPRESAS */
+
+#titulo2 h3 {text-align:center;}
+#titulo2 #clickear{float:left; background:#DBDBDB}
+#titulo2 #mantener{float:left; background:#DBDBDB; margin-left:5px}
+#titulo2 #cheatlinks{ float:right; background:#DBDBDB; margin:auto}
+#titulo2 .boton_clickear, #titulo2 .boton_mantener{float:left}
+#titulo2 .boton_clickear a, #titulo2 .boton_mantener a, #titulo2 .boton_cheatlinks a{
+	background-color: #999999;
+	color: white;
+	cursor: pointer;
+	padding: 6px 8px 4px 7px;
+	text-decoration: none;
+	border:#FFFFFF solid 1px;
+}
+#titulo2 .boton_clickear a:hover {background-color: #707070; color:#FFCC33; border:#FFCC33 solid 1px}
+#titulo2 .boton_mantener a:hover {background-color: #707070; color:#00CCFF; border:#00CCFF solid 1px}
+#titulo2 .boton_cheatlinks a:hover {background-color: #707070; color:#FF0000; border:#FF0000 solid 1px}
+#titulo2 .time{
+	font-size:10px;
+	margin-left:8px
+}
+#titulo2 .content{padding:7px 10px 13px 10px}
+#titulo2 .manual { background:#CCCC99; padding:4px; margin-left:10px; text-align:center; font-weight:bold}
+#titulo2 .ptc{ color:#0033FF}
+#titulo2 .ptr{ color:#FF0000}
+#titulo2 .totales{ color:#333333}
+#titulo2 .seguras{ color:#009900}
+#titulo2 .antiscam{ color:#FF9900}
+#titulo2 .scam{ color:#FF0000}
+#lista_empresas .texto1, #empresas .texto1 {
+	font:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+	/*margin-top:20px;*/
+	background-color:#DBDBDB;
+	width:400px;
+}
+#lista_empresas .texto1{ font-weight:bold; width:600px}
+#lista_empresas .texto1 .content, #empresas .texto1 .content{padding:0px 10px 10px 10px; }
+#empresas .boton_espera a, #empresas .boton_error a{
+	font-weight:bold;
+	cursor: pointer;
+	padding: 6px 8px 4px 7px;
+	text-decoration: none;
+	border:#CCCCCC solid 2px;
+	float:left
+}
+#empresas .boton_espera a{background-color: #FFCC00; color:#FF3300;}
+#empresas .boton_espera a:hover{border:#FF3300 solid 2px;}
+#empresas .boton_error a{background-color:#FE784B; color:#CA330D; margin-left:20px}
+#empresas .boton_error a:hover{border:#CA330D solid 2px;}
+
+#submenu td{padding:2px;}
+#submenu td a{
+	display:block; /* Lo muestras en bloque para darle ancho y alto */
+	text-decoration:none;/* quitas el subrayado */
+	text-indent:-10000px; /* remueves el texto */
+}
+#submenu td.seguras a{
+background-image: url('../files/botones/Estados de PTC/images/ebbtcbinsmenu1_0.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+#submenu td.seguras a:hover{
+background-image: url('../files/botones/Estados de PTC/images/ebbtcbinsmenu1_1.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+#submenu td.antiscam a{
+background-image: url('../files/botones/Estados de PTC/images/ebbtcbinsmenu2_0.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+#submenu td.antiscam a:hover{
+background-image: url('../files/botones/Estados de PTC/images/ebbtcbinsmenu2_1.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+#submenu td.scam a{
+background-image: url('../files/botones/Estados de PTC/images/ebbtcbinsmenu3_0.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+#submenu td.scam a:hover{
+background-image: url('../files/botones/Estados de PTC/images/ebbtcbinsmenu3_1.png');
+height: 26px;/* alto de tu imagen */
+width:105px;
+}
+
+
+
+
+
+
+
+
+
+
+/* FAQ */
+
+#faq .indice{
+	background-color:#DCD9CD;
+	width:378px;
+	/*padding:10px;*/
+	margin-bottom:15px;
+}
+#faq .tit_indice{
+	font-size:16px;
+	font-weight:bold;
+	color:#707070;
+	border:3px solid #E6E6E6;
+	padding:7px 15px;
+	margin:10px;
+}
+#faq .cont_indice{
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height:21px;
+}
+#faq .cont_indice a{
+	color:#666666;
+}
+#faq .cont_indice a:hover{
+	color:#996600;
+}
+#faq .block_aq{
+	background-color:#DBDBDB;
+	/*padding-bottom:7px;*/
+	margin-bottom:13px;
+}
+#faq .pregunta{
+	font:Geneva, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	padding: 20px 20px 10px 20px;
+}
+#faq img{ border:none}
+#faq .imagen{ text-align:center; padding:5px 0px}
+#faq p.respuesta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-indent:30px;
+	line-height:18px;
+	padding: 0px 25px 5px 25px;
+}
+#faq .scam a{
+	color:#FF0000;
+	font-weight:bold
+}
+#faq .scam a:hover{
+	color:#CC0000;
+	font-weight:bold
+}
+#faq .antiscam a{
+	color:#FF9900;
+	font-weight:bold
+}
+#faq .antiscam a:hover{
+	color:#FF6600;
+	font-weight:bold
+}
+#faq .segura a{
+	color:#009900;
+	font-weight:bold
+}
+#faq .segura a:hover{
+	color:#006600;
+	font-weight:bold
+}
+#faq .aviso{
+	padding:20px 0px;
+	text-align:center;
+	background:#FFF;
+	border:#000000;
+	border-style:solid;
+	width:530px;
+	margin:auto;
+}
+#faq .enlace a{ color:#000000; font-weight:bold}
+#faq .enlace a:hover{ color:#CC9900}
+
+
+
+
+
+
+
+
+
+
+/* CLICKEAR Y MANTENER */
+#clickear #botones, #mantener #botones{ 
+	text-align:center; 
+	font-family: sans-serif, Verdana, Arial;
+	font-size: 13px;
+	color: white;
+	font-weight:bold;
+	background:#DBDBDB;
+	width:320px;
+	margin:auto;
+}
+#clickear #botones h1 a, #mantener #botones h1 a{ font-size:16px}
+#clickear #botones .boton, #mantener #botones .boton{ margin-top:15px;}
+#clickear #botones .boton a, #mantener #botones .boton a{
+	background-color: #999999;
+	color: white;
+	cursor: pointer;
+	padding: 6px 8px 4px 7px;
+	text-decoration: none;	
+}
+#clickear #botones .boton a:hover, #mantener #botones .boton a:hover{background-color: #707070; color:#FFCC33}
+#clickear #botones .boton a:active, #mantener #botones .boton a:active{background-color: #707070;color: black;}
+#clickear #botones .c_term, #mantener #botones .c_term{ margin:35px auto 20px auto}
+#clickear #botones .c_term a, #mantener #botones .c_term a{
+	background-color: #999999;
+	color: white;
+	cursor: pointer;
+	padding: 6px 8px 4px 7px;
+	text-decoration: none;	
+	border:#FFFFFF solid 2px;
+}
+#clickear #botones .c_term a:hover, #mantener #botones .c_term a:hover{
+	background-color: #707070; 
+	color:#FFCC33;
+	border:#000 solid 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MIS GANANCIAS */
+#ganancias #tabla td.pagado0{background:#FF9900;}
+#ganancias #tabla td.pagado1{background:#009900;}
+#hpagos .contenido_detalles{
+	margin:25px auto;
+	width:500px;
+	background:#999999;
+	padding:5px
+}
+#hpagos .contenido_tabla{
+	margin:0 auto;
+	width:500px;
+	padding-top:10px
+}
+.titulop{
+	text-align:center;
+	font-size:14px;
+	font-weight:bold
+}
+#hpagos table.tabla{background:#FFFFCC;}
+#hpagos thead.tabla{background:#FF6600; color:#0000FF;}
+#hpagos .titulo_pago{
+	background:#CCCCCC none repeat scroll 0 0;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	margin:20px auto;
+	padding:5px;
+	text-align:center;
+	width:400px;
+}
+#hpagos .empresa_detalles{
+	width:450px;
+	background:#CCFFCC;
+	margin:5px auto;
+	text-align:left;
+	padding:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px
+}
+#hpagos .total{
+	width:450px;
+	background:#FE8395;
+	margin:7px auto;
+	text-align:center;
+	padding:7px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:16px;
+	font-weight:bold
+}
+#hpagos .volver{ text-align:center; margin:16px;}
+#hpagos .d1{color:#0033CC}
+#hpagos .d2{color:#0000FF}
+#submenu td a{
+	display:block; /* Lo muestras en bloque para darle ancho y alto */
+	height:32px;/* alto de tu imagen */
+	width:152px;
+	text-decoration:none;/* quitas el subrayado */
+	text-indent:-10000px; /* remueves el texto */
+}
+#ganancias #submenu td.t0 a{background-image: url('../files/botones/Historial pagos/images/ebbtcbinsmenu1_0.png');}
+#ganancias #submenu td.t0 a:hover{background-image: url('../files/botones/Historial pagos/images/ebbtcbinsmenu1_1.png');}
+#ganancias #tabla td.pagado0{background:#FF9900;}
+#ganancias #tabla td.pagado1{background:#009900;}
+
+
+
+
+
+
+
+/* MANUAL */
+#manual #indice{
+	background-color:#DCD9CD;
+}
+#manual #indice .headerbar{
+	width:84px;
+	background:#707070 url(../files/images/otros/icon_pointer.png) no-repeat scroll 14px 2px
+}
+#manual #indice .parte{
+	background:#CCCCCC none repeat scroll 0 0;
+	float:left;
+	margin:5px 0 -1px 4px;
+	padding:0;
+	width:191px;
+}
+#manual #indice .parte_selected{ 
+	background:#999999;
+	float:left;
+	margin:5px 0 -1px 4px;
+	padding:0;
+	width:191px
+}
+#manual #indice .parte_selected{ background:#999999}
+#manual #indice .parte_selected a{
+	color:#FFCC33
+}
+#manual #indice .parte_selected a:hover{
+	color:#000000
+}
+#manual #indice .parte .content{
+	margin:0 3px -9px 0;
+}
+#manual #indice .titulo_parte{ 
+	color:#707070;
+	font-size:15px;
+	font-weight:bold;
+	padding-left:5px;
+}
+#manual #indice ol{ 
+	padding:0 9px 0 29px;
+	margin-top:7px;
+}
+#manual #indice ol li{ 
+	list-style:decimal;
+	padding-bottom:2px;
+}
+#manual #indice .sel a{
+	color:#333300;
+font-size:12px;
+font-weight:bolder;
+}
+
+#paso{
+	margin-top:15px
+}
+#paso .indice{
+	background-color:#DCD9CD;
+	margin:10px auto;
+	width:400px;
+}
+#paso .indice .content{ padding:0 29px}
+#paso .indice .titulo{
+	border:3px solid #E6E6E6;
+	color:#E6E6E6;
+	font-size:16px;
+	font-weight:bold;
+	margin:auto;
+	padding:7px 15px;
+	width:175px;
+}
+#paso .indice a{
+	color:#666666;
+}
+#paso .indice a:hover{
+	color:#996600;
+}
+#paso .block_aq{
+	background-color:#DBDBDB;
+	margin-bottom:13px;
+}
+#paso .pregunta{
+	font:Geneva, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	padding: 20px 20px 10px 20px;
+}
+#paso img{ border:none}
+#paso .imagen{ text-align:center; padding:5px 0px}
+#paso p.respuesta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-indent:30px;
+	line-height:18px;
+	padding: 0px 25px 5px 25px;
+}
+
+#registrarse {
+	margin:0 auto;
+	width:600px;
+	background:#DBDBDB;
+}
+
+#recuperar_password {
+	background:#DBDBDB none repeat scroll 0 0;
+	margin:36px auto;
+	text-align:center;
+	width:352px;
+}
+#recuperar_password .content{ padding:10px}
+
+#form{table-layout:auto; margin:auto}
+#form td.derecha{text-align:right}
+#form td.dato{padding-left:5px}
+#form td.submit{ text-align:right; padding-right:20px}
+#form .securitycode{ margin-top:5px; width:40px}
+
+.cuadro_confirm{
+	background:#707070;
+	color:#FFFFFF;
+	margin:10px auto;
+	padding:10px 7px;
+	width:221px;
+	border:1px solid #FFF;
+}
+.cuadro_confirm form{
+	margin-top:7px;
+}
+.cuadro_confirm_ok{
+	background:#009900;
+	color:#FFFFFF;
+	margin:20px auto;
+	font-weight:bold;
+	padding:10px;
+	text-align:center;
+	width:300px;
+}
+.cuadro_error_login{
+	background:#CC3300 none repeat scroll 0 0;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin:-3px auto 0 5px;
+	padding:4px;
+	text-align:center;
+	width:163px;
+}
+.cuadro_error{
+	background:#CC3300 none repeat scroll 0 0;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin:0 auto 9px;
+	padding:10px;
+	text-align:center;
+	width:300px;
+}
+.cuadro_mensaje{
+	background:#707070 none repeat scroll 0 0;
+	border:2px solid #FFCC33;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin:20px auto;
+	padding:10px;
+	text-align:center;
+	width:300px;
+}
+
+#tabla_añadir{
+	background:#DBDBDB none repeat scroll 0 0;
+	margin:-4px auto 22px;
+}
+#tabla_añadir td.derecha{ text-align:right; padding-top:5px}
+
+#box2{ background:#DBDBDB;}
+
+.corte{ clear:both}
+
+.boton_volver a{
+	background-color:#707070;
+	border:2px solid #CCCCCC;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-weight:bold;
+	padding:6px 8px 4px 7px;
+	text-decoration:none;
+}
+.boton_volver a:hover{border:#000 solid 2px;}
+
+/* BORDES REDONDEADOS */
+.boxtop2 { 
+  background: url(../files/images/bordes_redondeados/faq/2/ne.gif) no-repeat top right; 
+}
+.boxtop2 div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../files/images/bordes_redondeados/faq/2/nw.gif) no-repeat top left; 
+}
+.boxbottom2 { 
+  background: url(../files/images/bordes_redondeados/faq/2/se.gif) no-repeat bottom right; 
+}
+.boxbottom2 div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../files/images/bordes_redondeados/faq/2/sw.gif) no-repeat bottom left; 
+}
+.boxtop3 { 
+  background: url(../files/images/bordes_redondeados/faq/1/ne.gif) no-repeat top right; 
+}
+.boxtop3 div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../files/images/bordes_redondeados/faq/1/nw.gif) no-repeat top left; 
+}
+.boxbottom3{ 
+  background: url(../files/images/bordes_redondeados/faq/1/se.gif) no-repeat bottom right; 
+}
+.boxbottom3 div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../files/images/bordes_redondeados/faq/1/sw.gif) no-repeat bottom left; 
+}
+.boxtop4 { 
+  background: url(../files/images/bordes_redondeados/faq/2/ne.gif) no-repeat top right; 
+}
+.boxtop4 div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../files/images/bordes_redondeados/faq/2/nw.gif) no-repeat top left; 
+}
+.boxbottom4 { 
+  background: url(../files/images/bordes_redondeados/faq/2/se.gif) no-repeat bottom right; 
+}
+.boxbottom4 div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../files/images/bordes_redondeados/faq/2/sw.gif) no-repeat bottom left; 
+}
+.boxtop5 { 
+  background: url(../files/images/bordes_redondeados/bordes5/ne.gif) no-repeat top right; 
+}
+.boxtop5 div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../files/images/bordes_redondeados/bordes5/nw.gif) no-repeat top left; 
+}
+.boxbottom5 { 
+  background: url(../files/images/bordes_redondeados/bordes5/se.gif) no-repeat bottom right;
+}
+.boxbottom5 div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../files/images/bordes_redondeados/bordes5/sw.gif) no-repeat bottom left; 
+}
+.boxtop6 { 
+  background: url(../files/images/bordes_redondeados/bordes6/ne.gif) no-repeat top right; 
+}
+.boxtop6 div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../files/images/bordes_redondeados/bordes6/nw.gif) no-repeat top left; 
+}
+.boxbottom6 { 
+  background: url(../files/images/bordes_redondeados/bordes6/se.gif) no-repeat bottom right;
+}
+.boxbottom6 div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../files/images/bordes_redondeados/bordes6/sw.gif) no-repeat bottom left; 
+}

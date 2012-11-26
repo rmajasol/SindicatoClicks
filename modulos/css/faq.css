@@ -1,0 +1,47 @@
+#faq .pregunta{
+	color:#996600;
+	font:Geneva, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	margin-top:45px
+}
+#faq .espacio{
+	height:30px;
+}
+#faq p.respuesta{
+	text-indent:30px;
+}
+#faq .scam a{
+	color:#FF0000;
+	font-weight:bold
+}
+#faq .scam a:hover{
+	color:#CC0000;
+	font-weight:bold
+}
+#faq .antiscam a{
+	color:#FF9900;
+	font-weight:bold
+}
+#faq .antiscam a:hover{
+	color:#FF6600;
+	font-weight:bold
+}
+#faq .segura a{
+	color:#009900;
+	font-weight:bold
+}
+#faq .segura a:hover{
+	color:#006600;
+	font-weight:bold
+}
+
+#faq .aviso{
+	padding:15px;
+	background:#999999;
+	height:40px;
+	border:#000000;
+	border-style:solid;
+}
+
+
