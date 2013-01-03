@@ -1,6 +1,7 @@
 Aplicación web para ganar dinero con las webs de tipo PTC (pay-to-click).
 
-== ¿Qué es una web PTC?
+¿Qué es una web PTC?
+==============
 El usuario se registra en ella y se le paga una cantidad por hacer click sobre los 
 anuncios publicitarios que esta muestra a diario. Los anuncios son de páginas de terceros que a su vez 
 pagan a la PTC por mostrárselas al usuario.
