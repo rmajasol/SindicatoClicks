@@ -54,6 +54,8 @@ gana pajaro123 al día será:
 
 Reparto de beneficios
 ==============
-Cuando cada cuenta madre llega al mínimo para cobrar (payout) y pide el pago se anuncia en la aplicación.
+Cuando cada cuenta madre llega al mínimo para cobrar (payout) y pide el pago entonces se avisa de ello
+en la aplicación, de forma que no tengan que estar los usuarios haciendo más clicks en una PTC de la que aun no 
+se sabe si paga o no.
 Una vez se recibe el dinero se reparte proporcionalmente a los clicks que hizo cada miembro, quedándose
 la aplicación con una comisión del 10%.
