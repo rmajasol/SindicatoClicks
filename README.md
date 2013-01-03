@@ -1,6 +1,6 @@
 Aplicación web para ganar dinero con las webs de tipo PTC (pay-to-click). 
 
-Realizada entre 2007-2008 para poner en práctica conocimientos de PHP y MySQL aprendidos de forma 
+Realizada entre 2008-09 para poner en práctica conocimientos de PHP y MySQL aprendidos de forma 
 autodidacta leyendo libros, tutoriales, consulta de APIs, etc.
 
 ¿Qué es una web PTC?
